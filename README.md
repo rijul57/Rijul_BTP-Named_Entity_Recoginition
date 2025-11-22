@@ -6,6 +6,7 @@
 **Name:** Rijul Singla (22075070)  
 **Department:** Computer Science and Engineering (B.Tech)  
 **Note:** To properly see the formatted code download the code files and open through jupyter notebook or collab.
+[Presentation Link](https://drive.google.com/file/d/1Ke0r4xrm961EFudiAYn-XPXaSGzCYmbq/view?usp=sharing)
 
 ***
 
