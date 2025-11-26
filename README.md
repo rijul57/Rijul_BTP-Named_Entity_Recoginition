@@ -234,6 +234,29 @@ Generate high-quality NER-annotated parallel corpora for **7 low-resource Indic 
 
 ***
 
+## Part 4: Devanagari Transliteration + Fine-tuning
+
+Converted the entire multilingual NER dataset into the Devanagari script, and then fine-tune the model on the converted dataset.
+
+Goal:
+
+Check whether script normalization (all languages → Devanagari) improves cross-lingual NER performance.
+
+All words from each language were transliterated into Devanagari using indic-transliteration (sanscript).
+
+### Results:  
+
+| Metric        | Score      |
+| ------------- | ---------- |
+| **Precision** | **0.8001** |
+| **Recall**    | **0.7931** |
+| **F1 Score**  | **0.7966** |
+
+Conclusion:
+
+Script normalization to Devanagari improved performance, outperforming the original results (0.7891 F1).
+***
+
 ## Complete Results Summary
 
 ### Cross-Lingual NER Dataset Quality
@@ -253,6 +276,13 @@ Generate high-quality NER-annotated parallel corpora for **7 low-resource Indic 
 | **Accuracy** | **97.97%** |
 
 ***
+
+Devanagari Transliteration + Fine-tuning
+| Metric        | Score      |
+| ------------- | ---------- |
+| **F1 Score**  | **0.7966** |
+| **Precision** | 0.8001     |
+| **Recall**    | 0.7931     |
 
 ## License
 
